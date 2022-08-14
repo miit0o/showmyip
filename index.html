@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>showmyip</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body onload="getUserIP()">
+<body onload="getUserIP()" style="font-family: Inter, sans-serif;">
     <section class="content-section">
         <h1>this is what you came for.</h1>
         <h5>Your IP is:</h5>
-        <h2 id="userIP">looking...</h2><small>"Proudly" created by <a href="https://github.com/miit0o" target="_blank">miit0o</a></small>
+        <h2 data-aos="fade" data-aos-delay="500" id="userIP">looking...</h2><small>"Proudly" created by <a href="https://github.com/miit0o" target="_blank">miit0o</a></small>
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/getip.js"></script>
 </body>
 
